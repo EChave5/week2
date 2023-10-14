@@ -1,0 +1,103 @@
+
+/* element selectors */
+
+body {
+  background-color: rgb(183, 230, 214);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2rem;
+}
+
+
+h1 {
+  text-align: center;
+  text-shadow: gray 1px;
+  border-style: solid;
+  padding: 1px;
+}
+
+h2 {
+  color: rgb(114, 2, 30);
+  margin-left: 1rem;
+  border: 1px;
+}
+
+h3 {
+  padding: 2px;
+  color: rgb(12, 3, 61);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  color: rgb(3, 3, 141);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  margin: 2px;
+  box-shadow: 5px 5px 2px black;
+  float: left;
+}
+
+table {
+  background-color: rgb(211, 243, 241);
+  color: rgb(32, 49, 43);
+  margin: 2px;
+  padding-left: 2px;
+  text-align: center;
+  width: 100;
+  border: 2px;
+}
+
+thead {
+  border: 1px solid black;
+  text-decoration-line: underline;
+}
+
+/* grouping elements*/
+
+tr, td {
+  border:rgb(12, 3, 61) solid;
+}
+
+/* classes */
+
+.nav {
+  padding: 4px;
+  font-size: large;
+}
+
+.main-list {
+  margin: 1px;
+}
+
+/*pseudo-classes*/
+.main-list:hover {
+  background-color: whitesmoke;
+  color: black;
+  width: fit-content;
+}
+
+/*unvisited link*/
+a:link {
+  color: blueviolet;
+}
+ /*visited link*/
+ a:visited {
+  color: rgb(108, 22, 165);
+ }
+
+/* id elements */
+
+#descriptions {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 1px black solid;
+  margin-left: 5px;
+  text-align: center;
+}
+
+#preferences {
+  border: solid rgb(8, 8, 20);
+  max-width: 200px;
+  background-color: rgb(216, 216, 240);
+}
